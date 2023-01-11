@@ -1,0 +1,11 @@
+.header-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.rectangleBlue {
+    border: 1px solid #001952;
+    background-color: #001952;
+}

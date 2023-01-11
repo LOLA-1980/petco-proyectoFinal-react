@@ -1,0 +1,21 @@
+.background-Footer {
+    background-color: #001952;
+}
+
+.buttomChat {
+    background-color: #001952;
+    color: #ffffff;
+    border: transparent;
+    font-weight: bolder;
+    width: 100px;
+}
+
+.chat-buttom-fixed {
+    position: fixed;
+    bottom: 20px;
+    right: 150px;
+}
+
+.border-top {
+    border-top: 1px solid #ffffff;
+}

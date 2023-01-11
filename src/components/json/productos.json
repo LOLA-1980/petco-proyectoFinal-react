@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Hills Metabolic + Mobility",
+        "description": "Hills Metabolic + Mobility 12kg",
+        "stock": 10,
+        "price": 2500,
+        "imagen": "/images/HILL-Metabolic-Mobility.jfif",
+        "category": "perro"
+    },
+    {
+        "id": 2,
+        "name": "Impermeable Amarillo",
+        "description": "Youly Impermeable Color Amarillo para Perro, Mediano 111551",
+        "stock": 20,
+        "price": 275,
+        "imagen": "/images/chamarra-amarilla.jfif",
+        "category": "perro"
+    },
+    {
+        "id": 3,
+        "name": "Royal Canin Mother and Baby Cat",
+        "description": "Royal Canin Mother Baby Cat Alimento Seco para Gato en Gestación/Lactancia/Destete Receta Pollo, 1.5 kg",
+        "stock": 7,
+        "price": 427,
+        "imagen": "/images/royal canin-mother and baby cat.jfif",
+        "category": "gato"
+    },
+    {
+        "id": 4,
+        "name": "Rascador para Gato",
+        "description": "You & Me Mueble Tipo Árbol de 7 Niveles con Juguete y Rascador de Cartón para Gato",
+        "stock": 100,
+        "price": 4499,
+        "imagen": "/images/rascador.jfif",
+        "category": "gato"
+    },
+    {
+        "id": 5,
+        "name": "Cunipic Alimento para Cuyos",
+        "description": "Cunipic Alpha Pro Alimento Completo para Cuyo Todas las Edades, 1.7 kg",
+        "stock": 5,
+        "price": 445,
+        "imagen": "/images/Cunipic-Alimento-Cuyo.jfif",
+        "category": "roedores"
+    },
+    {
+        "id": 6,
+        "name": "Hamaca para hurón",
+        "description": "Marshall Hamaca para Hurón con Forma de Banana",
+        "stock": 12,
+        "price": 504,
+        "imagen": "/images/hamaca-huron.jfif",
+        "category": "roedores"
+    },
+    {
+        "id": 7,
+        "name": "Alimento para peces",
+        "description": "Tetra Fin Alimento en Hojuelas para Goldfish, 62 g",
+        "stock": 8,
+        "price": 145,
+        "imagen": "/images/alimento-pez.jfif",
+        "category": "peces"
+    },
+    {
+        "id": 8,
+        "name": "Pecera hexagonal",
+        "description": "Imagitarium Kit de Acuario Semi-Hexagonal para Peces, 25.4 L",
+        "stock": 20,
+        "price": 1999,
+        "imagen": "/images/pecera.jfif",
+        "category": "peces"
+    },
+    {
+        "id": 9,
+        "name": "Alimento para periquitos",
+        "description": "Versele-Laga NutriBird B14 Alimento Balanceado para Periquitos, 800 g",
+        "stock": 30,
+        "price": 269,
+        "imagen": "/images/alimento-canario.gif",
+        "category": "aves"
+    },
+    {
+        "id": 10,
+        "name": "Juguete para Ave",
+        "description": "You & Me Zona de Juegos 3 en 1 para Ave",
+        "stock": 25,
+        "price": 510,
+        "imagen": "/images/juguete-ave.jfif",
+        "category": "aves"
+    },
+    {
+        "id": 11,
+        "name": "Alimento para tortuga",
+        "description": "Zoo Med Growth Formula Alimento para Tortuga Acuática, 850 g",
+        "stock": 40,
+        "price": 409,
+        "imagen": "/images/Alimento-tortuga.jfif",
+        "category": "reptiles"
+    },
+    {
+        "id": 12,
+        "name": "Disfraz para Reptiles",
+        "description": "Bootique Disfraz de Vikingo para Reptiles",
+        "stock": 9,
+        "price": 129,
+        "imagen": "/images/disfraz-reptil.jfif",
+        "category": "reptiles"
+    }
+]
