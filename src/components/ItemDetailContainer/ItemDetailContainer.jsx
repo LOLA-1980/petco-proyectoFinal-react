@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import ItemDetail from "../ItemDetail/ItemDetail";
+//import ItemDetail from "../ItemDetail/ItemDetail";
 import arrayProductos from "../json/productos.json";
+import Documento from "../Firebase/Documento";
 
 const ItemDetailContainer = () => {
     const [item, setItem] = useState([]);
@@ -22,7 +23,8 @@ const ItemDetailContainer = () => {
 
     return (
         <div className="container">
-            <ItemDetail item={item} />
+            {/* <ItemDetail item={item} /> */}
+            <Documento />
         </div>
     )
 }
