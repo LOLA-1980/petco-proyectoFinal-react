@@ -11,7 +11,7 @@ const Documento = () => {
         getDoc(item).then((snapShot) => {
             //console.log(data);
             if (snapShot.exists()) {
-                console.log(snapShot.id)
+                console.log(snapShot.data());
             } else {
                 console.log("El producto no existe!");
             }
