@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 //import arrayProductos from "../json/productos.json";
 import ItemList from "../ItemList/ItemList";
 import { useParams } from "react-router-dom";
-import { addDoc, collection, getDocs, getFirestore, query, where } from "firebase/firestore";
+import { collection, getDocs, getFirestore, query, where } from "firebase/firestore";
+import Loading from "../Loading/Loading";
 
 
 const ItemListContainer = () => {
     const [items, setItems] = useState([]);
+    const [loading, setLoading] = useState(true);
     const { id } = useParams();
 
     /*useEffect(() => {
@@ -42,14 +44,15 @@ const ItemListContainer = () => {
 
         getDocs(q).then((products) => {
             setItems(products.docs.map((doc) => ({ id: doc.id, ...doc.data() })
-            ))
+            ));
+            setLoading(false);
         });
     }, [id]);
 
 
     return (
         <div className="container">
-            <ItemList items={items} />
+            {loading ? <Loading /> : <ItemList items={items} />}
         </div>
     )
 }

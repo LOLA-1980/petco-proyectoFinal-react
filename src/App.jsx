@@ -11,6 +11,8 @@ import Cart from "./components/Cart/Cart";
 //import Inicio from "./components/Inicio/Inicio";
 import CartContextProvider from "./components/context/CartContext";
 import './App.css';
+import Checkout from "./components/Checkout/Checkout";
+import Thanks from "./components/Thanks/Thanks";
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
           <Route path={"/category/:id"} element={<ItemListContainer />} />
           <Route path={"/item/:id"} element={<ItemDetailContainer />} />
           <Route path={"/cart"} element={<Cart />} />
+          <Route path={"/checkout"} element={<Checkout />} />
+          <Route path={"/thanks/:id"} element={<Thanks />} />
           <Route path={"*"} element={<Error404 />} />
         </Routes>
         {/*<div className="container">
