@@ -30,10 +30,10 @@ const Checkout = () => {
                 let producto = doc(db, "items", item.id);
                 getDoc(producto).then((products) => {
                     batch.update(producto, { stock: products.data().stock - item.quantity });
+                    batch.commit();
                 });
             });
 
-            batch.commit();
             clear();
         });
     }
@@ -56,7 +56,7 @@ const Checkout = () => {
                             <label for="email" className="form-label">Email:</label>
                             <input type="text" className="form-control" placeholder="Ingrese su Email" onInput={(e) => { setEmail(e.target.value) }} />
                         </div>
-                        <button type="button" className="btn btn-warning" onClick={generarOrden}>Generar Orden</button>
+                        <button type="button" className="btn btn-primary" onClick={generarOrden}>Generar Orden</button>
                     </form>
                 </div>
                 <div className="col-md-6">

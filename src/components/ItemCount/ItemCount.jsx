@@ -32,11 +32,7 @@ const ItemCount = ({ stock, onAdd }) => {
         setItemStock(stock)
     }, [stock])
 
-    /*const onAdd = () => {
-        if (stock > 0) {
-            console.log("Agregaste: " + counter + " Productos al Carrito!");
-        }
-    }*/
+
 
     return (
         <div>
